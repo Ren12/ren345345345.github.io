@@ -736,4 +736,8 @@ footer {
     padding-bottom: 76px;
     padding-top: 48px; }
   .small-width-content {
-    padding-top: 36px; } }
+    padding-top: 36px; }
+  .article-content .go-back {
+    left: 0;
+    right: 0;
+    margin: auto; } }
