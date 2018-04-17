@@ -25,6 +25,22 @@ h3 {
 p {
   font-size: 16px;
 }
+.h1 {
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 35px;
+}
+
+.h2 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+.h4 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal;
+}
 .position-absolute {
   position: absolute!important;
 }
@@ -224,6 +240,7 @@ a {
   &__title {
     font-weight: 700;
     font-size: 1rem;
+    line-height: 24px;
   }
   &__img {
     border-radius: 3px 0 0 3px;
@@ -379,8 +396,13 @@ footer {
 }
 
 .text-size {
+  &-13 {
+    font-size: 13px;
+    line-height: 15px;
+  }
   &-16 {
     font-size: 16px;
+    line-height: 18px;
   }
 }
 .big-title-article {
@@ -471,5 +493,17 @@ footer {
   }
   .people-block__text {
     text-align: center;
+  }
+  .top-block_article {
+    min-height: 236px;
+  }
+  .article-content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 76px;
+    padding-top: 48px;
+  }
+  .small-width-content {
+    padding-top: 36px;
   }
 }

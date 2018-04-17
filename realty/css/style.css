@@ -338,6 +338,21 @@ h3 {
 p {
   font-size: 16px; }
 
+.h1 {
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 35px; }
+
+.h2 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px; }
+
+.h4 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal; }
+
 .position-absolute {
   position: absolute !important; }
 
@@ -504,7 +519,8 @@ a {
 
 .ads-list__title {
   font-weight: 700;
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 24px; }
 
 .ads-list__img {
   border-radius: 3px 0 0 3px;
@@ -637,8 +653,13 @@ footer {
   .icon_small {
     font-size: 16px; }
 
+.text-size-13 {
+  font-size: 13px;
+  line-height: 15px; }
+
 .text-size-16 {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 18px; }
 
 .big-title-article {
   font-weight: 900;
@@ -706,4 +727,13 @@ footer {
     padding-bottom: 24px;
     background-size: cover; }
   .people-block__text {
-    text-align: center; } }
+    text-align: center; }
+  .top-block_article {
+    min-height: 236px; }
+  .article-content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 76px;
+    padding-top: 48px; }
+  .small-width-content {
+    padding-top: 36px; } }
