@@ -335,6 +335,21 @@ h3 {
   font-size: 22px;
   margin-bottom: 28px; }
 
+.h1 {
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 35px; }
+
+.h2 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px; }
+
+.h4 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal; }
+
 p {
   font-size: 16px; }
 
@@ -423,6 +438,9 @@ a {
     background-size: cover; }
   .top-block__number-descr {
     line-height: 13px; }
+  .top-block_article {
+    background: url("../img/top_bg2.png") no-repeat center;
+    background-size: cover; }
 
 .buttons-block {
   margin-bottom: 93px; }
@@ -505,7 +523,8 @@ a {
 
 .ads-list__title {
   font-weight: 700;
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 24px; }
 
 .ads-list__img {
   border-radius: 3px 0 0 3px;
@@ -600,7 +619,7 @@ footer {
       font-size: 18px; }
 
 .read-more-block {
-  background: url("../img/bg2.png") no-repeat center;
+  background: url("../img/top_bg.png") no-repeat bottom;
   background-size: cover;
   height: 376px;
   margin-top: -50px;
@@ -638,8 +657,13 @@ footer {
   .icon_small {
     font-size: 16px; }
 
+.text-size-13 {
+  font-size: 13px;
+  line-height: 15px; }
+
 .text-size-16 {
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 18px; }
 
 .gray-block {
   background: rgba(237, 237, 243, 0.45);
@@ -706,4 +730,13 @@ footer {
   section,
   .gray-block {
     padding-top: 32px;
-    padding-bottom: 24px; } }
+    padding-bottom: 24px; }
+  .top-block_article {
+    min-height: 236px; }
+  .article-content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 76px;
+    padding-top: 48px; }
+  .small-width-content {
+    padding-top: 36px; } }
