@@ -761,4 +761,18 @@ footer {
     width: 47%; }
   section {
     padding-top: 32px;
-    padding-bottom: 24px; } }
+    padding-bottom: 24px; }
+  .top-block_article1,
+  .top-block_article2 {
+    min-height: 236px; }
+  .article-content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 76px;
+    padding-top: 48px; }
+  .small-width-content {
+    padding-top: 36px; }
+  .article-content .go-back {
+    left: 0;
+    right: 0;
+    margin: auto; } }
