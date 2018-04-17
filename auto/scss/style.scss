@@ -27,6 +27,22 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+.h1 {
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 35px;
+}
+
+.h2 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+.h4 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal;
+}
 .position-absolute {
   position: absolute!important;
 }
@@ -254,6 +270,7 @@ a {
   &__title {
     font-weight: 700;
     font-size: 1rem;
+    line-height: 24px;
   }
   &__img {
     border-radius: 3px 0 0 3px;
@@ -530,5 +547,18 @@ footer {
   section {
     padding-top: 32px;
     padding-bottom: 24px;
+  }
+  .top-block_article1,
+  .top-block_article2{
+    min-height: 236px;
+  }
+  .article-content {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 76px;
+    padding-top: 48px;
+  }
+  .small-width-content {
+    padding-top: 36px;
   }
 }

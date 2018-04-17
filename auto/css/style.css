@@ -341,6 +341,21 @@ p {
   font-size: 16px;
   line-height: 24px; }
 
+.h1 {
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 35px; }
+
+.h2 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px; }
+
+.h4 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal; }
+
 .position-absolute {
   position: absolute !important; }
 
@@ -528,7 +543,8 @@ a {
 
 .ads-list__title {
   font-weight: 700;
-  font-size: 1rem; }
+  font-size: 1rem;
+  line-height: 24px; }
 
 .ads-list__img {
   border-radius: 3px 0 0 3px;
