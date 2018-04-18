@@ -445,6 +445,9 @@ a {
   .top-block_bg {
     background: url("../img/top_bg.png") no-repeat center;
     background-size: cover; }
+  .top-block_bg2 {
+    background: url("../img/bg2.png") no-repeat center;
+    background-size: cover; }
 
 .buttons-block {
   margin-bottom: 93px; }
@@ -621,6 +624,9 @@ footer {
   margin-top: -50px;
   padding-top: 50px;
   margin-bottom: 64px; }
+  .read-more-block_2 {
+    background: url("../img/top_bg.png") no-repeat bottom;
+    background-size: cover; }
 
 .social-buttons {
   font-size: 16px; }
